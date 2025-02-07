@@ -1,0 +1,7 @@
+[thread_id: main] || 07 Feb 2025 10:11:03 || INFO  || org.use.local.dependency.Main || (Main.java:10) || Hello, World!
+[thread_id: main] || 07 Feb 2025 10:11:03 || INFO  || org.use.local.dependency.Main || (Main.java:16) || Name: John, Age: 30
+[thread_id: main] || 07 Feb 2025 10:16:02 || INFO  || org.use.local.dependency.core.Game || (Game.java:8) || Game start
+[thread_id: main] || 07 Feb 2025 10:18:53 || INFO  || org.use.local.dependency.core.Game || (Game.java:14) || Game start
+[thread_id: main] || 07 Feb 2025 10:19:24 || INFO  || org.use.local.dependency.core.Game || (Game.java:14) || Game start
+[thread_id: main] || 07 Feb 2025 10:19:43 || INFO  || org.use.local.dependency.core.Game || (Game.java:14) || Game start
+[thread_id: main] || 07 Feb 2025 10:20:07 || INFO  || org.use.local.dependency.core.Game || (Game.java:14) || Game start
