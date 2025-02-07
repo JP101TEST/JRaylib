@@ -1,5 +1,10 @@
 plugins {
     id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'org.use.local.dependency.Main' // เปลี่ยนเป็นชื่อคลาสหลักของคุณ
 }
 
 group = 'org.use.local.dependency'
@@ -23,3 +28,13 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+//launch4j {
+//    mainClassName = 'org.use.local.dependency.Main' // เปลี่ยนเป็นคลาสหลักของคุณ
+//    outputDir = "$buildDir/launch4j"
+//    outfile = "MyGame.exe"
+//    jar = "$buildDir/libs/${rootProject.name}-${version}.jar"
+//    icon = "src/main/resources/icon.ico" // ถ้ามีไอคอน .ico
+//    bundledJrePath = "C:\\Program Files\\Java\\jdk-17" // ใส่ path ของ JDK ถ้าต้องการ
+//    jreMinVersion = "11" // กำหนดเวอร์ชันขั้นต่ำของ JRE
+//}
