@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DhJkc+R3ki8=",
+  "success": true,
+  "projectFilePath": "E:\\gameDev\\C#\\Start\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JP\\.nuget\\packages\\raylib-cs\\7.0.1\\raylib-cs.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
