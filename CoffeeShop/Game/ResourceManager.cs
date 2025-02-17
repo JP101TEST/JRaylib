@@ -7,10 +7,13 @@ public static class ResourceManager
     private static Font _font;
     private static List<Font> _fonts;
     private static int _uiSize = 1;
+    // Mouse
 
+    private static string baseDirectory = AppContext.BaseDirectory; // ใช้ Base Directory ของไฟล์ที่รันอยู่
     public static void LoadAllFronts()
     {
-        string sourceDirectory = "Font/";
+        Console.WriteLine("Loading fonts...");
+        string sourceDirectory = baseDirectory + "/Font/";
         string[] fileType = { ".otf", ".ttf" }; // ต้องใช้จุดนำหน้าสกุลไฟล์
         _fonts = new List<Font>();
         List<string> fontFiles = new List<string>();
@@ -29,9 +32,10 @@ public static class ResourceManager
             if (file == "Font/NotoSansThai-VariableFont_wdth,wght.ttf")
             {
                 // โหลด Codepoints
-                int[] codepoints = GenerateCodepoints();
-
-                _fonts.Add(Raylib.LoadFontEx(file, 36, codepoints, codepoints.Length));
+                // int[] codepoints = GenerateCodepoints();
+                //
+                // _fonts.Add(Raylib.LoadFontEx(file, 36, codepoints, codepoints.Length));
+                continue;
             }
             else
             {
@@ -42,6 +46,8 @@ public static class ResourceManager
         }
     }
 
+    // ! ยังไม่ได้ใช้ vvv
+    
     // ฟังก์ชันสร้าง Codepoints ไทย + อังกฤษ + ญี่ปุ่น
     static int[] GenerateCodepoints()
     {
@@ -70,6 +76,8 @@ public static class ResourceManager
         return range;
     }
 
+    // ! ยังไม่ได้ใช้ ^^^
+    
     public static void SetFont(Font font)
     {
         _font = font;

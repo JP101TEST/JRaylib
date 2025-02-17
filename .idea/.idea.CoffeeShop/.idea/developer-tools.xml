@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="qr-code-generator">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="ascii-encoder-decoder" id="cb241c4f-7c10-4b00-b747-2dc69a624a3b" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|12dwฟดไกปแไดฟได้่-" />
+          <property key="targetText" type="INPUT" value="kotlin.String|12dw\u0e1f\u0e14\u0e44\u0e01\u0e1b\u0e41\u0e44\u0e14\u0e1f\u0e44\u0e14\u0e49\u0e48-" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="jwt-encoder-decoder" id="904092f4-bc2c-4f7b-97b0-20b84ae3b290" name="Workbench">
+        <properties>
+          <property key="headerText" type="INPUT" value="kotlin.String|{&#10;  &quot;typ&quot; : &quot;JWT&quot;,&#10;  &quot;alg&quot; : &quot;HS256&quot;&#10;}" />
+          <property key="payloadText" type="INPUT" value="kotlin.String|{&#10;  &quot;jti&quot; : &quot;96492d59-0ad5-4c00-892d-590ad5ac00f3&quot;,&#10;  &quot;sub&quot; : &quot;0123456789&quot;,&#10;  &quot;name&quot; : &quot;John Doe&quot;,&#10;  &quot;iat&quot; : 1681040515&#10;}" />
+          <property key="encodedText" type="INPUT" value="kotlin.String|eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ912.eyJqdGkiOiI5NjQ5MmQ1OS0wYWQ1LTRjMDAtODkyZC01OTBhZDVhYzAwZjMiLCJzdWIiOiIwMTIzNDU2Nzg5IiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNjgxMDQwNTE1fQ.p8DXyu99_K1XjwQZHiD4Y7EvrZOp12zsZdPdv5tAo8I" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="base64-encoder-decoder" id="5552d2b2-904c-4125-81d0-d11e6aaa0c81" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|1234" />
+          <property key="targetText" type="INPUT" value="kotlin.String|MTIzNA==" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="ascii-art" id="df4a632b-e0f4-41ee-b1c3-b69f470c31ca" name="Workbench">
+        <properties>
+          <property key="textInput" type="INPUT" value="kotlin.String|Awesome3" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="color-picker" id="34c1eca3-6343-4616-b5fa-0c0ad2654b43" name="Workbench">
+        <properties>
+          <property key="selectedColor" type="INPUT" value="com.intellij.ui.JBColor|-6521139" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+  </component>
+</project>

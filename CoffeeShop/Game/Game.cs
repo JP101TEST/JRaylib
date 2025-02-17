@@ -1,12 +1,16 @@
 using System.Numerics;
 using System.Text;
+using CoffeeShop.Ui;
+using CoffeeShop.Ui.Controller;
+using CoffeeShop.Ui.Model;
 using Raylib_cs;
 
 namespace CoffeeShop;
 
 public class Game
 {
-
+    public CPanel panel;
+    
     public void Run()
     {
         Init();
@@ -30,6 +34,10 @@ public class Game
 
         ResourceManager.SetFont(Raylib.LoadFontEx("Font/School Teachers.otf", 96, null, 0));
         ResourceManager.LoadAllFronts();
+        
+        panel = new CPanel(new MPanel());
+        panel.GetPanel().SetSize(new Vector2(350, 200));
+        panel.GetPanel().SetColor(Color.Gray);
     }
 
     private void input()
@@ -37,14 +45,17 @@ public class Game
         // * Get input here
         if (Raylib.IsKeyReleased(KeyboardKey.One))
         {
+            Console.WriteLine("Texture Filter: Point" );
             Raylib.SetTextureFilter(ResourceManager.GetFont().Texture, TextureFilter.Point);
         }
         else if (Raylib.IsKeyReleased(KeyboardKey.Two))
         {
+            Console.WriteLine("Texture Filter: Bilinear" );
             Raylib.SetTextureFilter(ResourceManager.GetFont().Texture, TextureFilter.Bilinear);
         }
         else if (Raylib.IsKeyReleased(KeyboardKey.Three))
         {
+            Console.WriteLine("Texture Filter: Trilinear" );
             Raylib.SetTextureFilter(ResourceManager.GetFont().Texture, TextureFilter.Trilinear);
         }
 
@@ -56,11 +67,14 @@ public class Game
         {
             ResourceManager.AddUiSize(-1);
         }
+        
+        panel.Input();
     }
 
     private void Update()
     {
         // * Update anything here
+        panel.Update();
     }
 
     private void Draw()
@@ -72,8 +86,10 @@ public class Game
         Raylib.DrawText("Hello, world!", 12, 12, 20, Color.Black);
         Raylib.DrawTextEx(ResourceManager.GetFont(), "Hello, world!", new Vector2(12, 42), 50, 1, Color.Black);
         Raylib.DrawTextEx(ResourceManager.GetFonts(0), "Hello, world!", new Vector2(12, 1*ResourceManager.GetUiSize()), ResourceManager.GetUiSize(), 0, Color.Black);
-        Raylib.DrawTextEx(ResourceManager.GetFonts(1), "Hello, world!", new Vector2(12, 2*ResourceManager.GetUiSize()), ResourceManager.GetUiSize(), 0, Color.Black);
-        Raylib.DrawTextEx(ResourceManager.GetFonts(2), NormalizeText("สวัดดีdawf, โลก!"), new Vector2(12, 3*ResourceManager.GetUiSize()), ResourceManager.GetUiSize(), 0, Color.Black);
+        Raylib.DrawTextEx(ResourceManager.GetFonts(2), "Hello, world!", new Vector2(12, 2*ResourceManager.GetUiSize()), ResourceManager.GetUiSize(), 0, Color.Black);
+        
+        panel.Draw();
+        
         Raylib.EndDrawing();
     }
 
