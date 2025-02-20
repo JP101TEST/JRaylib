@@ -1,0 +1,17 @@
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/bin/Release/net8.0/maccatalyst-arm64/CoffeeShop.deps.json
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/bin/Release/net8.0/maccatalyst-arm64/CoffeeShop.runtimeconfig.json
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/bin/Release/net8.0/maccatalyst-arm64/CoffeeShop.dll
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/bin/Release/net8.0/maccatalyst-arm64/CoffeeShop.pdb
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/bin/Release/net8.0/maccatalyst-arm64/Raylib-cs.dll
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.csproj.AssemblyReference.cache
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.AssemblyInfoInputs.cache
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.AssemblyInfo.cs
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.csproj.CoreCompileInputs.cache
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.sourcelink.json
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.csproj.Up2Date
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.dll
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/refint/CoffeeShop.dll
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.pdb
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/CoffeeShop.genruntimeconfig.cache
+/Users/digioth/Desktop/Work/laern/JRaylib/CoffeeShop/obj/Release/net8.0/maccatalyst-arm64/ref/CoffeeShop.dll
