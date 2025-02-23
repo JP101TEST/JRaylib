@@ -4,10 +4,14 @@ namespace CoffeeShop;
 
 public static class ResourceManager
 {
+    private static int _screenHeight = 0;
+    private static int _screenWidth = 0;
+    
     private static Font _font;
     private static List<Font> _fonts;
     private static int _uiSize = 1;
-    // Mouse
+    
+    
 
     private static string baseDirectory = AppContext.BaseDirectory; // ใช้ Base Directory ของไฟล์ที่รันอยู่
     public static void LoadAllFronts()
@@ -83,9 +87,10 @@ public static class ResourceManager
         _font = font;
     }
 
-    public static Font GetFont()
+    // Getter
+    public static ref Font GetFont()
     {
-        return _font;
+        return ref _font;
     }
 
     public static Font GetFonts(int index)
@@ -93,6 +98,16 @@ public static class ResourceManager
         return _fonts[index];
     }
     
+    public static int GetScreenWidth()
+    {
+        return _screenWidth;
+    }
+    
+    public static int GetScreenHeight()
+    {
+        return _screenHeight;
+    }
+    // Setter
     public static void SetUiSize(int size)
     {
         _uiSize = size;
@@ -106,5 +121,11 @@ public static class ResourceManager
     public static int GetUiSize()
     {
         return _uiSize;
+    }
+    
+    public static void SetScreenSize(int width, int height)
+    {
+        _screenWidth = width;
+        _screenHeight = height;
     }
 }
