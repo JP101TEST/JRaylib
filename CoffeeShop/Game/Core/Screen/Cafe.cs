@@ -14,7 +14,7 @@ public class Cafe : ScreenInterface
     private PlayerController playerController;
     private PlayerRender playerRender;
     
-    ScreenTranfer screenTransaction = null;
+    ScreenTransfer screenTransaction = null;
     
     public Cafe()
     {
@@ -79,7 +79,7 @@ public class Cafe : ScreenInterface
         {
             // ResourceManager.ChangeScreen();
             // ScreenController.ChangeScreen(new MainMenu()); 
-            screenTransaction = new ScreenTranfer(1.2f);
+            screenTransaction = new ScreenTransfer(1.2f);
         }
     }
 }
